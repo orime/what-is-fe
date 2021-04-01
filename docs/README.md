@@ -397,7 +397,7 @@
       - elementUI
       - view-design（之前叫 iview）
       - ant-design-vue
-  - vue3（新版本，尚未发布）
+  - vue3（新版本，已经发布）
 - React
   - create-react-app
   - 使用
