@@ -22,7 +22,7 @@ function getMarkdown() {
  * @param {string} html html 内容
  */
 function outputHtml(html = "") {
-  const distDir = path.resolve(__dirname, "..")
+  const distDir = path.resolve(__dirname, "..", "docs")
   fse.ensureDirSync(distDir)
 
   const filePath = path.join(distDir, "index.html")
